@@ -1,0 +1,30 @@
+
+.detailsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.detailsContainer i{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+.detailsContainer img {
+    width: 70%;
+    height: 70%;
+    border: 5px solid brown;
+}
+
+.detailsContainer ul{
+    margin-left: 30px;
+    font-size: large;
+}
+.fas{
+    cursor: pointer;
+}
